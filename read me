@@ -1,1 +1,11 @@
+To run the code you need to downoad the dataset from Kaggle, a competition whose link being:
+https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers/overview
 
+My way of importing the data set is to read from google drive, you can download it in working space.
+
+In colab, to use the catBoost regressor you need to fill the NaN with some number but you don't need 
+to do that on Kaggle notebook
+
+Results:
+MSE:24
+running time(GPU): 4 min
