@@ -8,7 +8,7 @@
           <mxGeometry x="90" y="120" width="820" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-2" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="429.5" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="450" y="120" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6oZYbPfHyP9pOPqMmx4x-3" target="6oZYbPfHyP9pOPqMmx4x-14">
           <mxGeometry relative="1" as="geometry" />
@@ -54,7 +54,7 @@
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6oZYbPfHyP9pOPqMmx4x-17" target="6oZYbPfHyP9pOPqMmx4x-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6oZYbPfHyP9pOPqMmx4x-17" value="提供访问大模型的端口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-17" value="提供大模型访问端口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6oZYbPfHyP9pOPqMmx4x-18" target="6oZYbPfHyP9pOPqMmx4x-31">
@@ -131,9 +131,6 @@
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-39" value="选择评价指标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6oZYbPfHyP9pOPqMmx4x-40" value="合作方数据集，&lt;div&gt;安全多方计算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-42" value="得到模型推断的结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
         </mxCell>
@@ -205,6 +202,36 @@
         </mxCell>
         <mxCell id="6oZYbPfHyP9pOPqMmx4x-69" value="获得评测报告" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="50" as="sourcePoint" />
+            <mxPoint x="240" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-72" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="50" as="sourcePoint" />
+            <mxPoint x="540" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-73" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="50" as="sourcePoint" />
+            <mxPoint x="690" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-75" value="数据集部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-76" value="推断部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-77" value="任务分配部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="60" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6oZYbPfHyP9pOPqMmx4x-78" value="评估部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="60" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
